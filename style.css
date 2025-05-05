@@ -1,15 +1,10 @@
-nav {
-    margin-bottom: 15%;
-    margin-right: 15%;
-}
-
 body {
     width:100%;
     height:auto;
     background-color: blanchedalmond;
 }
 
-body.slide4 {
+.slide4 {
     background-image: url(images/slide4gif.gif);
 }
 
@@ -41,14 +36,23 @@ align-items: center;
 }
 
 header {
-    width: 50px;
+    width: 100%;
     background-color: blanchedalmond;
-}
+    display: flex;
+    justify-content: flex-end;  
+    margin: 50px;
+  }
+  
+  .nav img {
+    max-width: 100px;
+    height: auto;
+  }
 
-header.img {
-    margin-left: 15px;
-}
 
-#eye {
-    background-color: black;
-}
+.eye {
+    background-image: url('../images/slide4gif.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+  }
