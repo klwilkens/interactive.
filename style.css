@@ -1,0 +1,54 @@
+nav {
+    margin-bottom: 15%;
+    margin-right: 15%;
+}
+
+body {
+    width:100%;
+    height:auto;
+    background-color: blanchedalmond;
+}
+
+body.slide4 {
+    background-image: url(images/slide4gif.gif);
+}
+
+.typing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+}
+
+.typing img {
+    max-width: 90vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.text {
+    width: 100%;
+    align-content: center;
+    margin-top: -40%;
+}
+
+
+.typewriter {
+align-items: center;
+}
+
+header {
+    width: 50px;
+    background-color: blanchedalmond;
+}
+
+header.img {
+    margin-left: 15px;
+}
+
+#eye {
+    background-color: black;
+}
