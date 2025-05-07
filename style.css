@@ -1,12 +1,10 @@
 body {
     width:100%;
     height:auto;
-    background-color: blanchedalmond;
+    background-image: url('images/stripes.png')
 }
 
-.slide4 {
-    background-image: url(images/slide4gif.gif);
-}
+
 
 .typing {
     display: flex;
@@ -35,17 +33,37 @@ body {
 align-items: center;
 }
 
+
+
 header {
     width: 100%;
-    background-color: blanchedalmond;
+    background-image: url('images/glitter2.avif');
     display: flex;
-    justify-content: flex-end;  
-    margin: 50px;
-  }
-  
-  .nav img {
-    max-width: 100px;
-    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
   }
 
 
+.click {
+    display: flex;
+    justify-content: flex-start;  
+
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end; 
+    padding-top: -20px; 
+}
+
+
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+  }
