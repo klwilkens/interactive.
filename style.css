@@ -49,10 +49,3 @@ header {
   }
 
 
-.eye {
-    background-image: url('../images/slide4gif.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed; 
-  }
